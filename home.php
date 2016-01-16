@@ -16,14 +16,14 @@
 				<img class="sticker stick-right-10 stick-bottom shrink" src="<?php echo get_stylesheet_directory_uri() . '/assets/images/jumbo-logo-bg.png'; ?>" style="z-index: 0;" />
 			</div>
 		</section>
-		<section id="home-forget-tomorrow" class="cushion-top-5" style="display: none;">
+		<section id="home-forget-tomorrow" class="cushion-top-5">
 			<div class="inner align-center cushion-left-5 cushion-right-5">
 				<h2>Forget Tomorrow&trade;</h2>
 				<p>Lost identity creates unwanted cycles. When you notice that you’re repeating the same mistakes, it’s time to forget about tomorrow and face what happened in your past.</p>
 				<a href="<?php echo home_url('/forget-tomorrow'); ?>" class="button see-through white">Face Fear</a>
 			</div>
 		</section>
-		<section id="home-conference" style="display: none;">
+		<section id="home-conference">
 			<div class="W50 L cushion-left-5 cushion-right-10 cushion-top-5">
 				<h1>Listen<br />To<br />Your<br />Life</h1>
 				<h4>Conference</h4>
