@@ -3,7 +3,7 @@
 		<header>
 			<?php get_template_part( 'views/header' ); ?>
 		</header>
-		<section id="home-hero" style="display: none;">
+		<section id="home-hero">
 			<div class="inner MT1" class="block">
 				<a href="<?php echo home_url('/forget-tomorrow'); ?>" class="button blue sticker stick-right-25 stick-bottom-25" style="z-index: 3;" >Live Again</a>
 				<div class="sticker stick-top-25 stick-left-50"  style="z-index: 2;" >
