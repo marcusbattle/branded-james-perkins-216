@@ -17,7 +17,7 @@
 			</div>
 		</section>
 		<section id="home-forget-tomorrow" class="cushion-top-5">
-			<div class="inner align-center">
+			<div class="inner align-center cushion-left-5 cushion-right-5">
 				<h2>Forget Tomorrow&trade;</h2>
 				<p>Lost identity creates unwanted cycles. When you notice that you’re repeating the same mistakes, it’s time to forget about tomorrow and face what happened in your past.</p>
 				<a href="<?php echo home_url('/forget-tomorrow'); ?>" class="button see-through white">Face Fear</a>
