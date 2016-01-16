@@ -138,7 +138,7 @@ footer p {
 }
 
 #home-conference {
-	height: 700px;
+	min-height: 700px;
 	background-image: url('assets/images/man-in-fog-optimized.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -165,4 +165,30 @@ footer p {
 .blue-banner .inner {
 	max-width: 960px;
 	color: #339999;
+}
+
+@media screen and (max-width: 800px) {
+
+	.W50,
+	.W75 {
+		width: 100%;
+		display: block;
+	}
+
+	.L { float: none; }
+	.R { float: none; }
+
+	.shrink {
+		width: 65%;
+	}
+
+	.stick-top-25 { top: 5%; }
+	.stick-left-50 { left: 20%; }
+	.stick-right-25 { right: 5%; }
+
+	.cushion-left-25 { padding-left: 5%; }
+	.cushion-right-25 { padding-right: 5%; }
+
+	h1 { font-size: 200%; }
+	
 }
