@@ -7,7 +7,7 @@
 			<li><a href="<?php echo home_url(); ?>">Home</a></li>
 			<li><a href="<?php echo home_url('/events'); ?>">Events</a></li>
 			<li><a href="<?php echo home_url('/forget-tomorrow'); ?>">Forget Tomorrow</a></li>
-			<!-- <li><a href="/store">Store</a></li> -->
+			<li><a href="<?php echo home_url('/blog'); ?>">Blog</a></li>
 			<li><a href="<?php echo home_url('/about'); ?>">About</a></li>
 			<li><a href="<?php echo home_url('/contact'); ?>">Contact</a></li>
 		</ul>

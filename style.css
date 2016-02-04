@@ -78,6 +78,10 @@ h3 {
 	margin: 0;
 }
 
+h3 a {
+	color: #666;
+}
+
 p {
 	font-family: 'nexa_lightregular';
 	font-size: 18px;
