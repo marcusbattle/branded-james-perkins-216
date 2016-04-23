@@ -41,6 +41,7 @@
 		<footer>
 			<div class="W50 L cushion-left-5">
 				<p>&copy; 2016 James Perkins. All Rights Reserved.</p>
+				<a href='https://go.jamesperkins.help/optin_box/x7ssb8ykq5hlhxzx' data-delay='8000' data-exit='false'><img src=""></a><script src='https://app.clickfunnels.com/assets/cfpop.js' type='text/javascript'></script>
 			</div>
 			<div class="W50 L align-right cushion-right-10">
 				<p>Branded by Battle Branding</p>
