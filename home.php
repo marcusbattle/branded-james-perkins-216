@@ -23,7 +23,7 @@
 				<a href="<?php echo home_url('/forget-tomorrow'); ?>" class="button see-through white">Face Fear</a>
 			</div>
 		</section>
-		<section id="home-conference">
+		<section id="home-conference" style="display: none;">
 			<div class="W50 L cushion-left-5 cushion-right-10 cushion-top-5">
 				<h1>Listen<br />To<br />Your<br />Life</h1>
 				<h4>Conference</h4>
