@@ -5,7 +5,7 @@
 		</header>
 		<section id="home-hero">
 			<div class="inner MT1" class="block">
-				<a href="<?php echo home_url('/forget-tomorrow'); ?>" class="button blue sticker stick-right-25 stick-bottom-25" style="z-index: 3;" >Live Again</a>
+				<a href="#appointment" class="button blue sticker stick-right-25 stick-bottom-25" style="z-index: 3;" >Book Me Now</a>
 				<div class="sticker stick-top-25 stick-left-50"  style="z-index: 2;" >
 					<h3>Hi. I’m James,<br />
 						a <strong>professional counselor</strong>.<br />
@@ -38,7 +38,7 @@
 				<h3>"Life is lived forward, but best understood looking backward. Forget tomorrow and live today!"</h3>
 			</div>
 		</section>
-		<section>
+		<section id="appointment">
 			<iframe src="https://jamesperkins.youcanbook.me/?noframe=true&skipHeaderFooter=true" id="ycbmiframejamesperkins" style="width:100%;height:1000px;border:0px;background-color:transparent;" frameborder="0" allowtransparency="true"></iframe><script>window.addEventListener && window.addEventListener("message", function(event){if (event.origin === "https://jamesperkins.youcanbook.me"){document.getElementById("ycbmiframejamesperkins").style.height = event.data + "px";}}, false);</script>
 		</section>
 		<footer>
