@@ -4,7 +4,7 @@
 	</div>
 	<nav class="L W75">
 		<?php wp_nav_menu( array( 'menu' => 'Main Menu', 'container' => false, 'menu_class' => 'R' ) ); ?>
-		<ul class="R">
+		<ul class="R" style="display: none;">
 			<li><a href="<?php echo home_url(); ?>">Home</a></li>
 			<li><a href="<?php echo home_url('/events'); ?>">Events</a></li>
 			<li><a href="<?php echo home_url('/forget-tomorrow'); ?>">Forget Tomorrow</a></li>
