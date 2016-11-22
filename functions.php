@@ -14,7 +14,11 @@ class Branded_Theme_James_Perkins {
 	}
 
 	public function __construct() {
+		add_action( 'after_setup_theme', array( $this, 'register_menu' ) );
+	}
 
+	public function register_menu() {
+		register_nav_menu( 'main', __( 'Main Menu', 'jamesperkins' ) );
 	}
 
 	public function hooks() {
