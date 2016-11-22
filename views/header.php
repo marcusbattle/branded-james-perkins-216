@@ -3,7 +3,7 @@
 		<h1 class="logo"><a href="<?php echo home_url(); ?>"><img src="<?php echo get_stylesheet_directory_uri() . '/assets/images/james-perkins-web-logo.png'; ?>" /></a></h1>
 	</div>
 	<nav class="L W75">
-		<?php wp_nav_menu( array( 'menu' => 'Main Menu' ) ); ?>
+		<?php wp_nav_menu( array( 'menu' => 'Main Menu', 'container' => false, 'menu_class' => 'R' ) ); ?>
 		<ul class="R">
 			<li><a href="<?php echo home_url(); ?>">Home</a></li>
 			<li><a href="<?php echo home_url('/events'); ?>">Events</a></li>
